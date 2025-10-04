@@ -1,32 +1,26 @@
 #!/bin/bash
 # install.sh - Setup script for Threat Hunting & Blue Team Toolkit (Linux)
 
+set -e
+
 LOGFILE="$HOME/threat-hunting-toolkit-install.log"
 exec > >(tee -i $LOGFILE)
 exec 2>&1
 
 echo "[$(date)] Starting setup for Threat Hunting & Blue Team Toolkit..."
-echo "[$(date)] Installing dependencies..."
-sudo apt install -y python3 python3-pip git curl wget unzip
-echo "[$(date)] ✅ Setup complete! Logs saved to $LOGFILE"
-
-set -e
-
-echo "Starting setup for Threat Hunting & Blue Team Toolkit..."
-echo ""
 
 # Update system
-echo "[+] Updating system..."
+echo "[$(date)] Updating system..."
 sudo apt update && sudo apt upgrade -y
 
-# Install common dependencies
-echo "[+] Installing dependencies..."
+# Install dependencies
+echo "[$(date)] Installing dependencies..."
 sudo apt install -y python3 python3-pip git curl wget unzip
 
 # ------------------------
 # Volatility3
 # ------------------------
-echo "[+] Installing Volatility3..."
+echo "[$(date)] Installing Volatility3..."
 if [ ! -d "$HOME/volatility3" ]; then
     git clone https://github.com/volatilityfoundation/volatility3.git $HOME/volatility3
     cd $HOME/volatility3
@@ -38,7 +32,7 @@ fi
 # ------------------------
 # Velociraptor
 # ------------------------
-echo "[+] Installing Velociraptor..."
+echo "[$(date)] Installing Velociraptor..."
 if ! command -v velociraptor &> /dev/null; then
     wget https://github.com/Velocidex/velociraptor/releases/latest/download/velociraptor-v0.8.4-linux-amd64.deb -O /tmp/velociraptor.deb
     sudo dpkg -i /tmp/velociraptor.deb || sudo apt install -f -y
@@ -50,19 +44,16 @@ fi
 # ------------------------
 # THOR
 # ------------------------
-echo "[+] Installing THOR..."
-echo "THOR is a commercial tool. Please download it from the official site: https://www.nextron-systems.com/thor/"
-echo ""
+echo "[$(date)] THOR is commercial. Download manually: https://www.nextron-systems.com/thor/"
 
 # ------------------------
-# Linux Artifact Collector (UAC)
+# UAC (Linux Artifact Collector)
 # ------------------------
-echo "[+] Installing UAC (Linux Artifact Collector)..."
+echo "[$(date)] Installing UAC (Linux Artifact Collector)..."
 if [ ! -d "$HOME/uac" ]; then
     git clone https://github.com/tclahr/uac.git $HOME/uac
 else
     echo "UAC already exists."
 fi
 
-echo ""
-echo "✅ Setup complete! Check README.md for usage instructions."
+echo "[$(date)] ✅ Setup complete! Logs saved to $LOGFILE"
