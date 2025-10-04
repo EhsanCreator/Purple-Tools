@@ -74,5 +74,3 @@ velociraptor collection execute --client <client-id> --collection windows.system
 * [Endpoint Threat Hunting Basics](https://www.sans.org/white-papers/403/)
 
 ```
-
----
