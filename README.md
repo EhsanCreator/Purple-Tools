@@ -1,6 +1,5 @@
 # Threat Hunting & Blue Team Toolkit
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/Platform-Linux%20|%20Windows-blue)](https://github.com/EhsanCreator/threat-hunting-toolkit)
 [![GitHub stars](https://img.shields.io/github/stars/EhsanCreator/threat-hunting-toolkit?style=social)](https://github.com/EhsanCreator/threat-hunting-toolkit/stargazers)
 
