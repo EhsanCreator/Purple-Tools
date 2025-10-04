@@ -1,10 +1,4 @@
-## **Step 1: Create a New Playbook File**
-
-Path: `docs/playbooks/memory-forensics-playbook.md`
-
----
-
-## **Step 2: Starter Playbook Content**
+## **Step 1: Starter Playbook Content**
 
 ````markdown
 # Memory Forensics Playbook
