@@ -1,12 +1,3 @@
-## **Step 1: Starter Playbook Content**
-
-````markdown
-# Logs-Based Threat Hunting Playbook
-
-This playbook demonstrates a basic workflow for detecting suspicious activity using system and application logs.
-
----
-
 ## **Scenario**
 You are investigating unusual activity on a host or network. You will collect and analyze logs for suspicious behavior, including authentication anomalies, process execution, and network connections.
 
@@ -90,17 +81,3 @@ grep -f iocs.txt examples/logs/syslog.log
 * [Windows Event Logs](https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/event-logging)
 * [Linux Syslog](https://www.rsyslog.com/doc/)
 * [Velociraptor Logs Collection](https://docs.velociraptor.app/)
-
-```
-
----
-
-### ✅ Step 2: Commit & Push
-
-1. Save the file as `logs-threat-hunting-playbook.md` in `docs/playbooks/`.  
-2. Stage it in GitHub Desktop.  
-3. Commit with a message:
-
-```
-
-Add starter logs-based threat hunting playbook
