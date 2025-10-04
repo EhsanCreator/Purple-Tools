@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+*.egg-info/
+
+# Linux/Windows
+*.log
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
+
+# Memory dumps & large files
+examples/memory-dumps/*
+!examples/memory-dumps/.gitkeep
+examples/reports/*
+!examples/reports/.gitkeep
+
+# Velociraptor binaries
+C:\Velociraptor/
+*.deb
+*.zip
