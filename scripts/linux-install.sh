@@ -1,6 +1,15 @@
 #!/bin/bash
 # install.sh - Setup script for Threat Hunting & Blue Team Toolkit (Linux)
 
+LOGFILE="$HOME/threat-hunting-toolkit-install.log"
+exec > >(tee -i $LOGFILE)
+exec 2>&1
+
+echo "[$(date)] Starting setup for Threat Hunting & Blue Team Toolkit..."
+echo "[$(date)] Installing dependencies..."
+sudo apt install -y python3 python3-pip git curl wget unzip
+echo "[$(date)] ✅ Setup complete! Logs saved to $LOGFILE"
+
 set -e
 
 echo "Starting setup for Threat Hunting & Blue Team Toolkit..."
