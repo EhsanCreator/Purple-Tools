@@ -8,7 +8,6 @@ This playbook demonstrates a basic workflow for investigating endpoints using Ve
 A host is suspected of compromise. You will collect system artifacts, processes, and network information from the endpoint for analysis.
 
 ---
-````
 ## **Step 1: Setup Velociraptor Client**
 
 - Ensure Velociraptor server is running and accessible.
