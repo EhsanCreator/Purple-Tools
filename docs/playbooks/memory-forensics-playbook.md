@@ -83,7 +83,7 @@ velociraptor collection execute --client <client-id> --collection memory_artifac
 
 ---
 
-### ✅ Step 3: Commit & Push
+### ✅ Step 2: Commit & Push
 
 1. Save the file as `memory-forensics-playbook.md` in `docs/playbooks/`.  
 2. Stage it in GitHub Desktop.  
