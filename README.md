@@ -119,25 +119,3 @@ Contributions are welcome!
 Fork the repo → create a new branch → submit a pull request.
 
 ---
-
-## 📜 License
-
-This project is licensed under the [MIT License](LICENSE).
-
-```
-
----
-
-This version now:
-
-- Clearly explains **how to install tools on Linux and Windows**.  
-- Keeps your **roadmap** visible and actionable.  
-- Mentions limitations (THOR and UAC).  
-- Guides users for **future contributions**.  
-
----
-
-If you want, I can **also suggest a small `examples/README.md` template** for your `docs/` and `examples/` folders, so users immediately know what each folder is for. This will make your repo **very professional and beginner-friendly**.  
-
-Do you want me to do that next?
-```
