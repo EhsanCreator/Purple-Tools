@@ -1,6 +1,6 @@
 # Threat Hunting & Blue Team Toolkit
 
-[![Platform](https://img.shields.io/badge/Platform-Linux%20|%20Windows-blue)](https://github.com/EhsanCreator/threat-hunting-toolkit)
+[![Platform](https://img.shields.io/badge/Platform-Linux%20|%20Windows-blue)](https://github.com/EhsanCreator/threat-hunting-tools)
 [![GitHub stars](https://img.shields.io/github/stars/EhsanCreator/threat-hunting-toolkit?style=social)](https://github.com/EhsanCreator/threat-hunting-toolkit/stargazers)
 
 A curated toolkit of tools and playbooks for **digital forensics, threat hunting, and blue team operations**.
