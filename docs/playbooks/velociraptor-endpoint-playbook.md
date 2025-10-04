@@ -76,5 +76,3 @@ velociraptor collection execute --client <client-id> --collection windows.system
 ```
 
 ---
-
-```
