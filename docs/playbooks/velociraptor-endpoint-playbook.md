@@ -1,4 +1,3 @@
-Step 2: Starter Playbook Content
 # Velociraptor Endpoint Investigation Playbook
 
 This playbook demonstrates a basic workflow for investigating endpoints using Velociraptor.
