@@ -44,7 +44,7 @@ fi
 # ------------------------
 # THOR
 # ------------------------
-echo "[$(date)] THOR is commercial. Download manually: https://www.nextron-systems.com/thor/"
+echo "[$(date)] THOR is a commercial tool. Please download it manually: https://www.nextron-systems.com/thor/"
 
 # ------------------------
 # UAC (Linux Artifact Collector)
