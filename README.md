@@ -21,3 +21,4 @@ Clone this repository and follow installation instructions for each tool.
 
 ```bash
 git clone https://github.com/EhsanCreator/threat-hunting-toolkit.git
+cd threat-hunting-toolkit
