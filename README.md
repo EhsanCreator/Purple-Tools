@@ -15,7 +15,6 @@ A curated toolkit of tools and playbooks for **digital forensics, threat hunting
 - [Installation](#%F0%9F%9B%80%EF%B8%8F-installation)
 - [Roadmap](#%F0%9F%93%8C-roadmap)
 - [Contributing](#%E2%9D%91-contributing)
-- [License](#%F0%9F%93%9C-license)
 
 ---
 
