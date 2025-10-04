@@ -42,7 +42,7 @@ if (-not (Test-Path $velociraptorPath)) {
 # ------------------------
 # THOR
 # ------------------------
-Write-Host "[$(Get-Date)] THOR is commercial. Download manually: https://www.nextron-systems.com/thor/" -ForegroundColor Yellow
+Write-Host "[$(Get-Date)] THOR is a commercial tool. Please download it manually: https://www.nextron-systems.com/thor/" -ForegroundColor Yellow
 
 # ------------------------
 # Volatility3
