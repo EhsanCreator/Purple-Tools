@@ -1,6 +1,23 @@
 # Threat Hunting & Blue Team Toolkit
 
-A curated list of tools for digital forensics, threat hunting, and blue team operations.
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Platform](https://img.shields.io/badge/Platform-Linux%20|%20Windows-blue)](https://github.com/EhsanCreator/threat-hunting-toolkit)
+[![GitHub stars](https://img.shields.io/github/stars/EhsanCreator/threat-hunting-toolkit?style=social)](https://github.com/EhsanCreator/threat-hunting-toolkit/stargazers)
+
+A curated toolkit of tools and playbooks for **digital forensics, threat hunting, and blue team operations**.
+
+---
+
+## 📌 Table of Contents
+
+- [Tools](#%F0%9F%94%8D-tools)
+- [Usage](#%F0%9F%9A%80-usage)
+- [Installation](#%F0%9F%9B%80%EF%B8%8F-installation)
+- [Roadmap](#%F0%9F%93%8C-roadmap)
+- [Contributing](#%E2%9D%91-contributing)
+- [License](#%F0%9F%93%9C-license)
+
+---
 
 ## 🔍 Tools
 
@@ -17,6 +34,7 @@ A curated list of tools for digital forensics, threat hunting, and blue team ope
 ---
 
 ## 🚀 Usage
+
 Clone this repository:
 
 ```bash
@@ -24,7 +42,7 @@ git clone https://github.com/EhsanCreator/threat-hunting-toolkit.git
 cd threat-hunting-toolkit
 ````
 
-Follow the instructions below to set up the tools for your platform.
+Follow the instructions below for your platform to set up the tools.
 
 ---
 
@@ -32,44 +50,36 @@ Follow the instructions below to set up the tools for your platform.
 
 ### Linux
 
-1. Open a terminal and navigate to the `scripts` folder:
-
 ```bash
 cd scripts
-```
-
-2. Make the install script executable:
-
-```bash
 chmod +x install.sh
-```
-
-3. Run the script:
-
-```bash
 ./install.sh
 ```
 
-> This script will install Python, Git, dependencies, Volatility3, Velociraptor, and UAC.
-> THOR is commercial, so follow the link to download it manually.
+> Installs Python, Git, Volatility3, Velociraptor, and UAC.
+> THOR is commercial and must be downloaded manually.
 
 ### Windows
 
-1. Open PowerShell **as Administrator**.
-2. Navigate to the `scripts` folder:
-
 ```powershell
+# Open PowerShell as Administrator
 cd path\to\threat-hunting-toolkit\scripts
-```
-
-3. Run the installation script:
-
-```powershell
 .\install.ps1
 ```
 
-> The script installs Python, Git, Velociraptor, and Volatility3.
-> THOR must be downloaded manually, and UAC is Linux-only.
+> Installs Python, Git, Velociraptor, and Volatility3.
+> THOR must be downloaded manually.
+> UAC is Linux-only.
+
+---
+
+## 📂 Folder Structure Overview
+
+* **docs/playbooks/** – Step-by-step playbooks for memory forensics, log analysis, and endpoint investigation.
+* **docs/case-studies/** – Example forensic cases demonstrating toolkit usage.
+* **examples/** – Sample memory dumps, logs, and reports.
+* **scripts/** – Installation scripts for Linux and Windows.
+* **tools/** – Configuration files, rules, or helpers for your tools.
 
 ---
 
@@ -77,45 +87,48 @@ cd path\to\threat-hunting-toolkit\scripts
 
 ### 🔹 Phase 1: Foundation (Current)
 
-* [x] Create initial repository
-* [x] Add README with core tools
-* [x] Add folder structure with `.gitkeep`
+* [x] Repository creation
+* [x] README with core tools
+* [x] Folder structure with `.gitkeep`
 
 ### 🔹 Phase 2: Documentation
 
-* [ ] Add basic usage guides for each tool
-* [ ] Add quick-start commands or cheat sheets
-* [ ] Create `docs/` folder for extended documentation
+* [x] Starter playbooks for memory forensics, logs, and endpoints
+* [x] Starter case study
+* [x] Examples folder with README
 
 ### 🔹 Phase 3: Automation
 
-* [x] Add `install.sh` (Linux)
-* [x] Add `install.ps1` (Windows)
-* [ ] Dockerize tools for easy deployment
+* [x] `install.sh` for Linux
+* [x] `install.ps1` for Windows
+* [ ] Dockerization for easy deployment
 
 ### 🔹 Phase 4: Practical Scenarios
 
-* [ ] Provide sample forensic cases
-* [ ] Write threat hunting playbooks
-* [ ] Add “How-To” examples for blue teamers
+* [ ] Additional playbooks (Sigma rules, malware analysis)
+* [ ] Expanded case studies
 
 ### 🔹 Phase 5: Expansion
 
-* [ ] Add more tools (Sysmon configs, Sigma rules, OSQuery)
-* [ ] Add SIEM integrations (Splunk, ELK, Wazuh)
-* [ ] Build automation pipelines
+* [ ] Add more tools (OSQuery, Sysmon configs)
+* [ ] SIEM integrations (Splunk, ELK, Wazuh)
+* [ ] Automate collection & reporting pipelines
 
 ### 🔹 Phase 6: Community
 
-* [ ] Set contribution guidelines
-* [ ] Accept pull requests for new tools/playbooks
-* [ ] Organize issues as “feature requests” or “tool suggestions”
+* [ ] Contribution guidelines
+* [ ] Pull request workflow
+* [ ] Feature requests & issues organization
 
 ---
 
 ## 🤝 Contributing
 
 Contributions are welcome!
-Fork the repo → create a new branch → submit a pull request.
 
----
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/your-feature`)
+3. Make your changes
+4. Commit (`git commit -m "Add feature"`)
+5. Push (`git push origin feature/your-feature`)
+6. Open a Pull Request
