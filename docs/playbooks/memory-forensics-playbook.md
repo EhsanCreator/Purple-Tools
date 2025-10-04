@@ -1,6 +1,5 @@
 ## **Step 1: Starter Playbook Content**
 
-````markdown
 # Memory Forensics Playbook
 
 This playbook demonstrates a basic workflow for memory analysis during an incident response or threat hunting investigation.
@@ -78,17 +77,3 @@ velociraptor collection execute --client <client-id> --collection memory_artifac
 * [Volatility3 Documentation](https://github.com/volatilityfoundation/volatility3)
 * [Velociraptor Documentation](https://docs.velociraptor.app/)
 * [UAC (Linux Artifact Collector)](https://github.com/tclahr/uac)
-
-```
-
----
-
-### ✅ Step 2: Commit & Push
-
-1. Save the file as `memory-forensics-playbook.md` in `docs/playbooks/`.  
-2. Stage it in GitHub Desktop.  
-3. Commit with a message like:
-
-```
-
-Add starter memory forensics playbook
