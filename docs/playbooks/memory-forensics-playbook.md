@@ -98,19 +98,3 @@ velociraptor collection execute --client <client-id> --collection memory_artifac
 ```
 
 Add starter memory forensics playbook
-
-```
-
-4. Click **Push origin** to update GitHub.
-
----
-
-This gives your repo a **practical first playbook** that users can immediately follow and replicate.  
-
-We can continue by **creating more playbooks**, such as:  
-- Threat hunting using logs (`logs-playbook.md`)  
-- Malware analysis (`malware-analysis-playbook.md`)  
-- Endpoint investigation with Velociraptor (`velociraptor-playbook.md`)  
-
-Do you want me to create **the next playbook for threat hunting logs**?
-```
