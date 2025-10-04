@@ -1,4 +1,3 @@
-````markdown
 # Velociraptor Endpoint Investigation Playbook
 
 This playbook demonstrates a basic workflow for investigating endpoints using Velociraptor.
