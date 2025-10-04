@@ -1,8 +1,3 @@
-Perfect! Let’s update your **README.md** so it includes clear installation instructions for both **Linux** and **Windows**, alongside your existing usage instructions. Here’s a polished version:
-
----
-
-````markdown
 # Threat Hunting & Blue Team Toolkit
 
 A curated list of tools for digital forensics, threat hunting, and blue team operations.
