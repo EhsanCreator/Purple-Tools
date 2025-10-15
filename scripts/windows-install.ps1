@@ -1,10 +1,10 @@
-# install.ps1 - Setup script for Threat Hunting & Blue Team Toolkit (Windows)
+# install.ps1 - Setup script for purple Team Toolkit (Windows)
 # Run as Administrator
 
 $LogFile = "$env:USERPROFILE\threat-hunting-toolkit-install.log"
 Start-Transcript -Path $LogFile -Append
 
-Write-Host "[$(Get-Date)] Starting setup for Threat Hunting & Blue Team Toolkit..." -ForegroundColor Cyan
+Write-Host "[$(Get-Date)] Starting setup for purple Team Toolkit..." -ForegroundColor Cyan
 
 # ------------------------
 # Chocolatey Installation
