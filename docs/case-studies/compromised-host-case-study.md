@@ -1,6 +1,6 @@
 # Compromised Host - Forensic Case Study
 
-This case study demonstrates a step-by-step investigation of a compromised host using the Threat Hunting & Blue Team Toolkit.
+This case study demonstrates a step-by-step investigation of a compromised host using the purple Team Toolkit.
 
 ---
 
