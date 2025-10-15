@@ -81,45 +81,6 @@ cd path\to\threat-hunting-toolkit\scripts
 
 ---
 
-## 📌 Roadmap
-
-### 🔹 Phase 1: Foundation (Current)
-
-* [x] Repository creation
-* [x] README with core tools
-* [x] Folder structure with `.gitkeep`
-
-### 🔹 Phase 2: Documentation
-
-* [x] Starter playbooks for memory forensics, logs, and endpoints
-* [x] Starter case study
-* [x] Examples folder with README
-
-### 🔹 Phase 3: Automation
-
-* [x] `install.sh` for Linux
-* [x] `install.ps1` for Windows
-* [ ] Dockerization for easy deployment
-
-### 🔹 Phase 4: Practical Scenarios
-
-* [ ] Additional playbooks (Sigma rules, malware analysis)
-* [ ] Expanded case studies
-
-### 🔹 Phase 5: Expansion
-
-* [ ] Add more tools (OSQuery, Sysmon configs)
-* [ ] SIEM integrations (Splunk, ELK, Wazuh)
-* [ ] Automate collection & reporting pipelines
-
-### 🔹 Phase 6: Community
-
-* [ ] Contribution guidelines
-* [ ] Pull request workflow
-* [ ] Feature requests & issues organization
-
----
-
 ## 🤝 Contributing
 
 Contributions are welcome!
