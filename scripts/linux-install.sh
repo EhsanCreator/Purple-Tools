@@ -1,5 +1,5 @@
 #!/bin/bash
-# install.sh - Setup script for Threat Hunting & Blue Team Toolkit (Linux)
+# install.sh - Setup script for purple Team Toolkit (Linux)
 
 set -e
 
@@ -7,7 +7,7 @@ LOGFILE="$HOME/threat-hunting-toolkit-install.log"
 exec > >(tee -i $LOGFILE)
 exec 2>&1
 
-echo "[$(date)] Starting setup for Threat Hunting & Blue Team Toolkit..."
+echo "[$(date)] Starting setup for purple Team Toolkit..."
 
 # Update system
 echo "[$(date)] Updating system..."
