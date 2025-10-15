@@ -1,7 +1,7 @@
-# Threat Hunting & Blue Team Toolkit
+# Purple Team Toolkit
 
-[![Platform](https://img.shields.io/badge/Platform-Linux%20|%20Windows-blue)](https://github.com/EhsanCreator/threat-hunting-tools)
-[![GitHub stars](https://img.shields.io/github/stars/EhsanCreator/threat-hunting-toolkit?style=social)](https://github.com/EhsanCreator/threat-hunting-tools/stargazers)
+[![Platform](https://img.shields.io/badge/Platform-Linux%20|%20Windows-blue)](https://github.com/EhsanCreator/purple-tools)
+[![GitHub stars](https://img.shields.io/github/stars/EhsanCreator/purple-toolkit?style=social)](https://github.com/EhsanCreator/purple-tools/stargazers)
 
 A curated toolkit of tools and playbooks for **digital forensics, threat hunting, and blue team operations**.
 
@@ -36,8 +36,8 @@ A curated toolkit of tools and playbooks for **digital forensics, threat hunting
 Clone this repository:
 
 ```bash
-git clone https://github.com/EhsanCreator/threat-hunting-toolkit.git
-cd threat-hunting-toolkit
+git clone https://github.com/EhsanCreator/purple-toolkit.git
+cd purple-toolkit
 ````
 
 Follow the instructions below for your platform to set up the tools.
@@ -61,7 +61,7 @@ chmod +x install.sh
 
 ```powershell
 # Open PowerShell as Administrator
-cd path\to\threat-hunting-toolkit\scripts
+cd path\to\purple-toolkit\scripts
 .\install.ps1
 ```
 
